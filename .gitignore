@@ -1,0 +1,41 @@
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+develop-eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment directories
+env/
+venv/
+ENV/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# LDPlayer backups
+backups/
+
+# Configuration overrides (store defaults in repo)
+config/*.json
+!config/setting.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# pip cache
+pip-log.txt
+pip-delete-this-directory.txt
